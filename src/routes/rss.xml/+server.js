@@ -20,7 +20,7 @@ export async function GET({ setHeaders }) {
     'Content-Type': 'application/xml'
   })
 
-  const xml = `<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  const xml = `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
       <channel>
         <title>${name}</title>
         <link>${website}</link>
